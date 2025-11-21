@@ -1,0 +1,13 @@
+# Ignore Data (Too large for GitHub)
+data/
+*.csv
+*.zip
+*.joblib.dat
+
+# Ignore Secrets
+.env
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore heavy temp files
+shap_values_full.joblib
