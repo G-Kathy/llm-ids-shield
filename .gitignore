@@ -2,3 +2,4 @@ Data/Processed/*
 
 !Data/Processed/Dataset.md
 
+*.pkl
