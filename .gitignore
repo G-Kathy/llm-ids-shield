@@ -1,0 +1,53 @@
+
+
+# Environment variables
+.env
+.env.*
+
+
+# Ignore data outputs folder
+data_outputs/
+embeddings_dataset/
+evaluation_results/
+label/
+models/
+
+
+
+# Ignore python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+
+# Ignore system files
+.DS_Store
+
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+
+# Embeddings / large arrays
+*.npy
+*.npz
+
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.csv
+
+# VSCode settings
+.vscode/

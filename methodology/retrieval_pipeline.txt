@@ -1,0 +1,25 @@
+Network traffic
+       ↓
+ML IDS
+       ↓
+prediction + confidence
+       ↓
+incident packet
+       ↓
+embedding
+       ↓
+Pinecone search
+   (detection-vector-db)
+       ↓
+retrieve similar attack cases
+       ↓
+attack type identified
+       ↓
+Pinecone search
+   (mitigation-vector-db)
+       ↓
+retrieve mitigation knowledge
+       ↓
+LLM reasoning
+       ↓
+SOC report

@@ -1,0 +1,65 @@
+# -----------------------------
+# Core Scientific Computing
+# -----------------------------
+numpy
+scipy
+pandas
+
+# -----------------------------
+# Machine Learning
+# -----------------------------
+scikit-learn
+xgboost
+lightgbm
+optuna
+joblib
+
+# -----------------------------
+# Data Visualization
+# -----------------------------
+matplotlib
+seaborn
+
+# -----------------------------
+# LLM and Embeddings
+# -----------------------------
+transformers
+sentence-transformers
+huggingface-hub
+accelerate
+
+# -----------------------------
+# Dataset Handling
+# -----------------------------
+datasets
+tqdm
+
+# -----------------------------
+# Vector Database
+# -----------------------------
+pinecone
+
+# -----------------------------
+# LLM APIs
+# -----------------------------
+groq
+
+# -----------------------------
+# Dimensionality Reduction / Visualization
+# -----------------------------
+umap-learn
+scikit-learn
+
+# -----------------------------
+# Environment and Utilities
+# -----------------------------
+python-dotenv
+requests
+pydantic
+
+# -----------------------------
+# Jupyter / Experimentation
+# -----------------------------
+jupyter
+notebook
+ipykernel

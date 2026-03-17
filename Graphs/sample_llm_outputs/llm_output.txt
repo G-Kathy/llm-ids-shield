@@ -1,0 +1,53 @@
+==========================================================================================
+SOC INCIDENT ANALYSIS REPORT
+==========================================================================================
+SOC INCIDENT REPORT
+
+Predicted Attack: Mirai-HTTP Flooding
+Confidence Assessment: The machine learning model predicts the attack with a confidence level of 0.9861, which is considered high. This suggests that the model is likely reliable in its prediction.
+
+Final Attack Assessment: 
+Based on the observed network traffic behavior and the retrieved historical cases, the predicted attack type of Mirai-HTTP Flooding is confirmed. The traffic behavior, such as high flow duration, very low destination port, and high packet inter-arrival time, matches the patterns observed in the historical cases. Therefore, the ML prediction is validated and not overridden.
+
+Feature Comparison Table:
+| Feature | Incident Behavior | Historical Pattern | Match Strength |
+| --- | --- | --- | --- |
+| Flow Duration | High (167) | High/Very High | Strong |
+| Destination Port | Very Low (80) | Very Low/Very High | Medium |
+| Packet Inter-Arrival Time | High (167.0) | Low/Medium | Medium |
+| Packet Size | Low (10.0) | Low | Strong |
+| Packet Length | Low (6.666666666666668) | Low | Strong |
+
+Strong Indicators: 
+- High flow duration
+- Low packet size
+- Low packet length
+These indicators are strong matches with the historical patterns of Mirai-HTTP Flooding attacks.
+
+Weak or Uncertain Indicators: 
+- Destination port (very low in the incident, but varies in historical cases)
+- Packet inter-arrival time (high in the incident, but varies in historical cases)
+These indicators are partial matches and do not provide conclusive evidence.
+
+Missing Evidence: 
+No evidence is available for the packet content or the source IP addresses of the traffic. This information could be useful in further confirming the attack type.
+
+Relevant Historical Cases: 
+Case 1, Case 2, and Case 3 are the most similar to the incident, with high confidence scores and matching traffic behavior patterns. These cases provide valuable insights into the characteristics of Mirai-HTTP Flooding attacks.
+
+Recommended Mitigations:
+1. Filter Network Traffic (M1037)
+   - Explanation: This mitigation involves employing network appliances and endpoint software to filter ingress, egress, and lateral network traffic. It includes protocol-based filtering, enforcing firewall rules, and blocking or restricting traffic based on predefined conditions.
+   - Why it works: By filtering network traffic, it is possible to limit the movement of adversaries and prevent data exfiltration. This can help to mitigate the effects of Mirai-HTTP Flooding attacks.
+   - How to implement: Configure network firewalls to allow traffic only from authorized IP addresses, and implement protocol-based filtering to block suspicious traffic.
+
+2. Implement Rate Limiting (RA-5)
+   - Explanation: This mitigation involves limiting the rate at which traffic is allowed to flow through the network. This can help to prevent flooding attacks by limiting the amount of traffic that can be sent to a particular destination.
+   - Why it works: By limiting the rate of traffic, it is possible to prevent the network from becoming overwhelmed by a large volume of traffic. This can help to mitigate the effects of Mirai-HTTP Flooding attacks.
+   - How to implement: Configure network devices to limit the rate of traffic flowing through the network, and implement rate limiting rules to block traffic that exceeds the allowed rate.
+
+Severity Assessment: 
+The severity of the incident is assessed as High. The confirmed attack indicators, such as high flow duration and low packet size, suggest that the attack is likely to have a significant impact on the network.
+
+Analyst Notes: 
+The Mirai-HTTP Flooding attack is a type of denial-of-service attack that can cause significant disruption to network services. The recommended mitigations, such as filtering network traffic and implementing rate limiting, can help to mitigate the effects of this attack. However, it is also important to implement additional security measures, such as monitoring network traffic and implementing intrusion detection systems, to detect and respond to potential security threats.

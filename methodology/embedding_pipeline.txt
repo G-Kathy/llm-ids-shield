@@ -1,0 +1,23 @@
+IoTID20 / CICIDS2017 / UNSW-NB15
+        ↓
+Select shared 16 features
+        ↓
+Map all features → IoTID20 schema
+        ↓
+Semantic encoding
+        ↓
+Feature grouping
+        ↓
+Hierarchical feature representation
+        ↓
+Feature importance guided text
+        ↓
+Embedding model (BGE) 
+        ↓
+L2 normalization
+        ↓
+Pinecone vector DB 
+        ↓
+Mitigation JSON
+        ↓
+Pinecone vector DB 
