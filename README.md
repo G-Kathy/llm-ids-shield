@@ -56,8 +56,61 @@ SOC Incident Report
 ## 📂 Project Structure
 
 ```
-
-
+LLM-IDS-SHIELD/
+│
+├── cicids2017/
+│   ├── results/
+│   ├── datapreprocessing.ipynb
+│   ├── model_training.ipynb
+│   
+│
+├── cicids2017_results_evaluation/
+│
+├── iotid20/
+│   ├── results/
+│   ├── embedding.ipynb
+│   ├── model_training.ipynb
+│
+├── iotid20_results_evaluation/
+│       
+│
+├── unswnb15/
+│   ├── results/
+│   ├── datapreprocessing.ipynb
+│   ├── model_training.ipynb
+│
+├── unswnb15_results_evaluation/
+│       
+│
+├── datasets/
+│   ├── cicids2017/
+│   ├── iotid20/
+│   └── unswnb15/
+│
+├── Graphs/
+│   ├── embedding_visualization/
+│   ├── sample_llm_outputs/
+│   ├── shap_analysis/
+│   └── visualizations/
+│
+├── metadata/
+│   └── cicids17_features.md
+│
+├── methodology/
+│   └── architecture.png
+│
+├── mitigation_embedding/
+│   └── mitigation_embedding_all.ipynb
+│
+├── rag_llm_pipeline/
+│   └── retrieve.ipynb
+│
+├── synthetic_data/
+│
+├── .env
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 ```
 
